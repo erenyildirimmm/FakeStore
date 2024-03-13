@@ -28,7 +28,7 @@ const ProductDetailContent = ({ product }) => {
       )}
       <div className="mb-12 flex items-center gap-4">
         <Counter />
-        <button className="py-3 px-6 bg-zinc-950 text-cyan-400 rounded-xl font-semibold">
+        <button className="py-3 sm:px-6 px-4 bg-zinc-950 text-cyan-400 rounded-xl sm:text-lg text-xs font-semibold">
           Add To Cart
         </button>
       </div>

@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
       >
         <div
           data-testid="product-image"
-          className="w-full sm:h-52 h-44 bg-transparent rounded-t-xl mb-4"
+          className="w-full sm:h-52 h-24 bg-transparent rounded-t-xl mb-4"
           style={productCardStyle(product)}
         />
         <div className="py-6">
